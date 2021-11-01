@@ -1,0 +1,12 @@
+.list {
+  /* -webkit-appearance: none; */
+  border: 2px solid #f1f1f3;
+  font: inherit;
+  padding: 0.5rem 0;
+  background-color: #fff;
+  min-width: 150px;
+}
+
+.list option {
+  padding: 4px 1rem;
+}

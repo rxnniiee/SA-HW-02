@@ -1,0 +1,12 @@
+.app {
+  margin: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .app {
+    flex-direction: column-reverse;
+  }
+}

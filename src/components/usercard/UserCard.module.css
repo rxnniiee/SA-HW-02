@@ -1,0 +1,42 @@
+.usercard {
+  border: 2px solid #f1f1f3;
+  padding: 0.5rem;
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  min-height: 50px;
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #909090;
+}
+
+.user__name::before {
+  content: 'Name';
+  padding-right: .5rem;
+  font-size: .9rem;
+  color: #909090;
+}
+
+.user__phone::before {
+  content: 'Phone';
+  padding-right: .5rem;
+  font-size: .9rem;
+  color: #909090;
+}
+
+.user__address::before {
+  content: 'Address';
+  padding-right: .5rem;
+  font-size: .9rem;
+  color: #909090;
+}
+
+@media only screen and (max-width: 600px) {
+  .usercard {
+    max-width: 100%;
+  }
+}
